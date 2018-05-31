@@ -1,14 +1,27 @@
 # Custom LineageOS Builds
 
-## Software
+## LineageOS Installation
 
-Required tools:
+Required tools for installing LineageOS on a phone:
+Tools for installing L
 
 - adb
 - fastboot
 - heimdall
 
-To install required tools on Fedora: `sudo dnf install android-tools heimdall`
+To install required tools on Fedora:
+
+```
+sudo dnf install android-tools heimdall`
+```
+
+## LineageOS Build
+
+To install the required tools for building LineageOS on Fedora:
+
+```
+sudo dnf install bc bison ccache make flex gcc git gnupg gperf ImageMagick ncurses-devel readline-devel esound-devel lz4-devel openssl-devel wxGTK3-devel libxml2-devel lzop pngcrush rsync schedtool squashfs-tools libxslt zip zlib-devel
+```
 
 ## Devices
 
